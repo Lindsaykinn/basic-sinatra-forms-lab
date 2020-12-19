@@ -2,7 +2,9 @@ require 'sinatra/base'
 
 class App < Sinatra::Base
 
+  #responding to a get request at newteam
   get '/newteam' do  
+    #rendering it in the GET /newteam route:
     erb :newteam
   end
 
